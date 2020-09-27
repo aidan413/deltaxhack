@@ -62,8 +62,8 @@ def second_screen():
         root.title("Health Application")
         root.geometry("640x640+0+0")
         root.configure(bg="#32e0c4")
-        heading = Label(root, text="YOU ARE DEAD", fg='black',bg='#32e0c4', font="AppHighlightFont 40 bold").pack()
-        info = Label(root, text="DISEASES FOR YOUR SYMPTOMS", fg='white',bg='#32e0c4', font="AppHighlightFont 20 bold").pack()
+        heading = Label(root, text="Am I Dying", fg='black',bg='#32e0c4', font="AppHighlightFont 40 bold").pack()
+        info = Label(root, text="Diseases for your Symptoms", fg='white',bg='#32e0c4', font="AppHighlightFont 20 bold").pack()
         symc=user_symptoms[:]
         for symp in symc:
             if symp=='':
