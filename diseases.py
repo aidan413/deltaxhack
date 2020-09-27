@@ -10,7 +10,7 @@ def createlib():
     dislib.append(flu)
     alz=Disease('Alzheimer\'s Disease',['amnesia','mental decline','depression','hallucinations','delusions','mood swings'],Disease.MENT,[''],50)
     dislib.append(alz)
-    cpx=Disease('Chikenpox',['fever', 'drowsiness', 'loss of appetite','headache','spots','itchiness','blister','rash'], Disease.VIR,['touch','air','saliva',],3.5)
+    cpx=Disease('Chickenpox',['fever', 'drowsiness', 'loss of appetite','headache','spots','itchiness','blister','rash'], Disease.VIR,['touch','air','saliva',],3.5)
     dislib.append(cpx)
     cvd=Disease('Coronavirus Disease 2019',['fever', 'cough', 'shortness of breath', 'drowsiness', 'muscle aches', 'headache','lost of taste', 'lost of smell', 'sore throat', 'runny nose', 'nausea', 'diarrhea','chest pain'],Disease.VIR,['air','touch'],70)
     dislib.append(cvd)
